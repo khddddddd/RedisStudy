@@ -1,0 +1,18 @@
+###
+POST http://localhost:8080/test/rateLimiter?userid=a
+
+###
+POST http://localhost:8080/test/rateLimiter2?userid=a
+
+###
+POST http://localhost:8080/cachecontroller/insertuser?nickname=王五&password=asasas&mobile=118662237491&role=监管人
+
+###
+GET http://localhost:8080/cachecontroller/finduser?nickname=李四&password=asasas
+
+###
+GET http://localhost:8080/cachecontroller/getuser?id=7
+
+###
+POST http://localhost:8080/cachecontroller/updateuser?id=6&nickname=李四111111&password=11111&role=工作人员
+
